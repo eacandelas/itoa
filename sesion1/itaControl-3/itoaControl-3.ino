@@ -13,31 +13,22 @@ void loop() {
         Serial.println(dato);
     }
 
-	if ( a == 2){
+	if ( a == '2'){
 		digitalWrite(2, HIGH);
-
-	}else if (a == 3){
+	}else if (a == '3'){
 		digitalWrite(3, HIGH);
-
-	}else if (a == 4){
+	}else if (a == '4'){
 		digitalWrite(4, HIGH);
-
-	}else if (a == 5){
+	}else if (a == '5'){
 		digitalWrite(5, HIGH);
-
 	}else if (a == 'a'){
 		digitalWrite(2, LOW);
-
 	}else if (a == 'b'){
 		digitalWrite(3, LOW);
-
 	}else if (a == 'c'){
 		digitalWrite(4, LOW);
-
 	}else if (a == 'd'){
 		digitalWrite(5, LOW);
-
-
 	}else if (a == 0){
 		digitalWrite(1, LOW);
 		digitalWrite(2, LOW);

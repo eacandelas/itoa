@@ -13,7 +13,6 @@ void loop() {
         Serial.println(dato);
     }
 
-
 }
 
 
